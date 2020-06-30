@@ -1,0 +1,7 @@
+---
+applications:
+- name: express-api
+  command: node app/app.js
+  memory: 256M
+  instances: 1
+  random-route: true
